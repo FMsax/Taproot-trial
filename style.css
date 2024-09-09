@@ -1,0 +1,29 @@
+body{
+  background-color: black;
+}
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  background-color: black;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border:1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x-image {
+  background-image: url("x-image.png");
+  background-size: cover;
+}
+
+.o-image {
+  background-image: url("o-image.png");
+  background-size: cover;
+}
